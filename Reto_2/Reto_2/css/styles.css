@@ -177,12 +177,12 @@ aside {
 #containerAsideIzq1 {
   background-color: #fafafa;
   border: 1px solid #fafafa;
-  padding: 16px;
+  padding: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 215.703px;
-  height: 203px;
+  height: 200px;
   font-size: 16px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -204,7 +204,7 @@ aside {
 
 .buttonIzq1 {
   width: 215.703px;
-  border: 1px solid #3b49df;
+  border: 1.5px solid #3b49df;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 7px;
@@ -229,45 +229,69 @@ aside {
 .login:hover {
 background-color: rgba(59,73,223,0.1);
 text-decoration: underline;
-width: 200px;
+width: 111px;
 text-align: center;
 border-radius: 8px;
 }
 
 #containerAsideIzq2 ul li {
+  width: 215.703px;
+  height: 24px;
+  padding: 8px;
   list-style: none;
   text-decoration: none;
   color: rgba(0, 0, 0, 0);
   font-size: 16px;
+  text-align: left;
 }
 
-#containerAsideIzq2 {
-  position: relative;
-  right: 10px;
+#containerAsideIzq2 ul li img{
+width: 15px;
+margin: 0px left;
+background-color: transparent;
+
+
 }
+
+#containerAsideIzq2 ul li:hover {
+  background-color: rgba(59,73,223,0.1);
+  text-decoration: underline;
+  width: 245.703px;
+  text-align: left;
+  }
 
 #containerAsideIzq3 ul li {
   list-style: none;
   text-decoration: none;
   color: rgba(0, 0, 0, 0);
   font-size: 16px;
-}
-
-#containerAsideIzq3 {
-  position: relative;
-  right: 10px;
-  margin: 8px auto;
-}
-
-#containerAsideIzq3 p {
-  text-align: center;
-}
-
-#containerAsideIzq3 p {
+  padding: 8px;
   text-align: left;
 }
 
+#containerAsideIzq3 ul li img{
+  width: 15px;
+  margin: 0px left;
+  background-color: transparent;
+}
+
+#containerAsideIzq3 ul li:hover {
+  background-color: rgba(59,73,223,0.1);
+  text-decoration: underline;
+  width: 245.703px;
+  text-align: left;
+  }
+
+  #contacto img:hover{
+    border: 5px solid rgba(59,73,223,0.2);
+    margin-bottom: 3px;
+
+  }
+
+
 #containerAsideIzq4 ul {
+  font-size: 16px;
+  padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,9 +307,14 @@ border-radius: 8px;
           justify-content: flex-start;
 }
 
-#containerAsideIzq4 {
+#containerAsideIzq4 ul li:hover{
+  background-color: rgba(59,73,223,0.1);
+  text-decoration: underline;
+  width: 245.703px;
   text-align: left;
 }
+
+
 
 #containerAsideIzq5 {
   background-color: #fafafa;
@@ -318,10 +347,14 @@ border-radius: 8px;
       -ms-flex-align: center;
           align-items: center;
   font-size: 16px;
-  color: #3b49df;
+  color: black;
   background-color: #fafafa;
   border: 1px solid #fafafa;
   margin-top: 10px;
+}
+
+#containerAsideIzq6 a{
+color: rgb(59, 73, 223);
 }
 
 /* Style the submit button */

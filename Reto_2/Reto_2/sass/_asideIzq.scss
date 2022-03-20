@@ -54,10 +54,6 @@ aside{
     @include enlacesYlistas();
 }
 
-#containerAsideIzq2{
-    position:relative;
-    right: 10px;
-}
 
 #containerAsideIzq3 ul li{
     @include enlacesYlistas();
