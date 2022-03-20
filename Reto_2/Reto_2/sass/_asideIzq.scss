@@ -1,0 +1,118 @@
+@mixin enlacesYlistas {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+}
+
+@mixin alineacionTexto {
+    text-align: center;
+}
+
+aside{
+    width: 205.141px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#containerAsideIzq1{
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#asideIzq p:first-child{
+    font-size: 20px;
+    font-weight: 72px;
+}
+
+#asideIzq p:nth-child(2){
+    font-size: 16px;
+    font-weight: 72px;
+}
+
+
+.buttonIzq1{
+    border: 1px solid rgb(59, 73, 223) ;
+    padding: 5px;
+    border-radius: 8%;
+    text-align: center;
+    margin: 5px;
+}
+
+.buttonIzq1:hover{
+    color: white;
+    background-color: rgb(59, 73, 223);
+}
+
+
+#containerAsideIzq2 ul li{
+    @include enlacesYlistas();
+}
+
+#containerAsideIzq2{
+    position:relative;
+    right: 10px;
+}
+
+#containerAsideIzq3 ul li{
+    @include enlacesYlistas();
+}
+
+#containerAsideIzq3{
+    position:relative;
+    right: 10px;
+    margin:8px auto;
+}
+
+#containerAsideIzq3 p{
+    text-align:center ;
+    
+}
+
+#containerAsideIzq3 p{
+    text-align: left;
+}
+
+#containerAsideIzq4 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#containerAsideIzq4{
+    text-align: left;
+}
+
+#containerAsideIzq5{
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(59, 73, 223);
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    
+}
+
+#containerAsideIzq6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(59, 73, 223);
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+   
+    margin-top: 10px;
+}

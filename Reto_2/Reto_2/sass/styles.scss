@@ -1,0 +1,22 @@
+@import "stylemain";
+@import "nav";
+@import "asideDer";
+@import "asideIzq";
+@import "header";
+
+
+#alineacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    
+}
+@media (min-width:768px) and (max-width:1240px){
+    body{
+        background-color: black;
+    }
+
+}
+@media (min-width:768px) and (max-width:1240px){
+    
+}

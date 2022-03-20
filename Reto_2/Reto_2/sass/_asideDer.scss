@@ -1,0 +1,110 @@
+$color_1: #717171;
+$color_2: #404040;
+$color_3: #3b49df;
+$color_4: white;
+$color_5: #3d3d3d;
+$color_6: #783501;
+$background-color_1: #f5f5f5;
+$background-color_2: #fafafa;
+$background-color_3: white;
+$background-color_4: #3b49df;
+$background-color_5: #d6d6d7;
+$background-color_6: #fcd34d;
+
+/* link principal */
+/* Caja del titulo de la tabla */
+/* Caja de links */
+/* Caja de botones */
+/* Recuadro NEW */
+body {
+	background-color: $background-color_1;
+}
+#Side2 {
+	width: 320px;
+}
+.BlockM {
+	background-color: $background-color_2;
+}
+.BlockMT {
+	background-color: $background-color_1;
+	padding: 15px;
+	color: $color_1;
+	font-size: 16;
+}
+.BoxT {
+	background-color: $background-color_1;
+	padding: 15px;
+	color: $color_1;
+	font-size: 16;
+	font-weight: bold;
+}
+#BlockImg {
+	width: 320px;
+}
+.Link {
+	text-decoration: none;
+	color: $color_2;
+}
+.Link2 {
+	text-decoration: none;
+	color: $color_2;
+	&:hover {
+		color: $color_3;
+	}
+}
+.TitleBox {
+	padding: 15px;
+	font-size: 16;
+	font-weight: bold;
+	border: 1px solid #eaeaea;
+}
+.SubPageBox {
+	padding: 15px;
+	color: $color_1;
+	font-size: 16;
+	border: 1px solid #eaeaea;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+.SubPageBoxT {
+	padding: 15px;
+	font-size: 16;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+#Buttons {
+	height: 110px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	border: 1px solid #eaeaea;
+}
+.BtnBlue {
+	background-color: $background-color_4;
+	color: $color_4;
+	width: 280px;
+	height: 35px;
+	border-radius: 6px;
+	outline: none;
+}
+.BtnGray {
+	background-color: $background-color_5;
+	color: $color_5;
+	width: 280px;
+	height: 35px;
+	border-radius: 6px;
+	outline: none;
+}
+.Space {
+	width: 320px;
+	height: 25px;
+}
+#New {
+	color: $color_6;
+	background-color: $background-color_6;
+	padding: 4px;
+	border-radius: 4px;
+}
